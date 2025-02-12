@@ -71,14 +71,14 @@ The GEOM is a large molecular dataset and we random sample `200000/10000` data f
     ```python main_geom.py --ssp```
 Our code supports multi-GPU training. Please use the DDP training command from PyTorch.
 
-## Acknowledgement ##
-
-This research were performed using the CFFF platform of Fudan University. 
-
 ### General 
 
 1. [`nets`](nets) includes code of position prediction modules.
 2. [`engine`](engine.py) includes code of masking strategies.
+
+## Acknowledgement ##
+
+This research were performed using the CFFF platform of Fudan University. 
 
 ## Citation ##
 
