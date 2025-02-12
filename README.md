@@ -1,8 +1,12 @@
 # Equivariant Masked Position Prediction for Efficient Molecular Representation
 
-![The overreview of EMPP](overreview.jpg)
-
 This is the official code-release for the paper [Equivariant Masked Position Prediction for Efficient Molecular Representation](https://openreview.net/forum?id=Nue5iMj8n6), published at ICLR 2025 (poster).
+
+![The motivation of EMPP](motivation.jpg)
+
+EMPP is a self-supervised method for 3D molecular representation. In this repository, we provide an application based on EMPP: using it as an auxiliary task to improve property prediction. This application can be applied to both equilibrium and non-equilibrium datasets.
+
+![The overreview of EMPP](overreview.jpg)
 
 ## Environment Setup ##
 
